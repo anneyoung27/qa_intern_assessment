@@ -7,7 +7,8 @@ import java.util.Properties;
 
 public class ConfigReader {
     private static Properties properties;
-    private static final String CONFIG_FILE_PATH = "src/test/resources/config.properties";
+    private static final String CONFIG_FILE_PATH = "src/main/resources/config.properties";
+
 
     public static void loadProperties() {
         properties = new Properties();
@@ -63,8 +64,12 @@ public class ConfigReader {
         return getProperty("password");
     }
 
-    public static String getDatabase() {
-        return getProperty("database");
+    public static String getUserName() {
+        return getProperty("default.customer.name");
+    }
+
+    public static String getProductName(){
+        return getProperty("default.product.name");
     }
 }
 
