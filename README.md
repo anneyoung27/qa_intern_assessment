@@ -2,18 +2,6 @@
 
 Automation testing project untuk assessment QA Intern di Juke Solution menggunakan Selenium WebDriver, Cucumber BDD, dan TestNG.
 
-## 📋 Table of Contents
-
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running Tests](#running-tests)
-- [Test Reports](#test-reports)
-- [Features](#features)
-- [Parallel Testing](#parallel-testing)
-
 ## 🛠 Technology Stack
 
 - **Java 11** - Programming Language
@@ -341,9 +329,6 @@ mvn clean test -DthreadCount=2
 mvn clean test -Dparallel=none
 ```
 
-## 📞 Contact
-
-Untuk pertanyaan atau issues, silakan hubungi:
 - **Email:** your.email@example.com
 - **GitHub Issues:** [Create an issue](https://github.com/your-username/repo/issues)
 
