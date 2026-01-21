@@ -1,4 +1,5 @@
 # Juke Solution - QA Intern Assessment
+![Logo-Juke](https://github.com/user-attachments/assets/01778668-f627-4851-b04f-962dd776a9ca)
 
 Automation testing project untuk assessment QA Intern di Juke Solution menggunakan Selenium WebDriver, Cucumber BDD, dan TestNG.
 
